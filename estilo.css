@@ -6,3 +6,9 @@
 body{
     background: #ff191825;
 }
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
