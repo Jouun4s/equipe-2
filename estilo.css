@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background: #FDF4F5;
+    
+}
+
+nav {
+    width:auto;
+    margin: auto;
+    padding: auto;
+    display: inline;
+    
+    
+}
+
+#texto-nav h1{
+    margin-left: -26rem;
+    margin-top: -8rem;
+    font-weight: 700;
+  
+}
+
+#texto-nav h2{
+    margin-left: 34rem;
+    margin-top: -3.5rem;
+    width: 70%;
+    font-weight: 500;
+    
+}
+
+nav img {
+    width: 7.5rem;
+    height: auto;
+    margin: 15px 20px;
+    padding-bottom: 2.5rem;
+}
+
+img {
+    height: 25rem;
+    width: auto;
+    transition: 0.5s;
+}
+img:hover{
+    scale: 102%;
+}
+
+.sobre{
+    width: auto;
+    margin: 100px 15px;
+    display: flex;
+    padding: 10px;
+    background: #FA9884;
+    border-radius: 15px;
+}
+.sobre img{
+   margin: 10px 5px;
+}
+
+#texto-sobre{
+    width: 40%;
+    justify-content: right;
+    margin-left: 80px;
+    margin-top: 15px;
+    padding-right: 25px;
+}
+ h1{
+    text-align: center;
+    font-weight: 700;
+}
+h3{
+    text-align: justify;
+    font-weight: 500;
+}
+
+.estudo{
+    width: 100%;
+    margin: 30px 20px;
+    display: grid;
+    height: auto;
+}
+
+#texto-estudo{
+    display: grid;
+    width: 40%;
+    justify-content: left;
+    margin-right: 20rem;
+    margin-top: -24rem;
+    align-items: left;
+}
+#texto-estudo h1{
+    text-align: center;
+   margin-bottom: -5px;
+}
+
+.estudo img{
+    display: grid;
+    width: 45%;
+    height: auto;
+    align-items: right;
+    padding-left: 37rem;
+    justify-content: right;
+    margin-top: 4rem;
+}
+
+.geracoes{
+    display: grid;
+    margin-top: 40px;
+}
+
+.ge1{
+    display: grid;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    background: #FA9884;
+    border-radius: 15px;
+}
+
+.ge1 img{
+    padding-right: 20px;
+    width: 42%;
+    height: auto;
+    align-items: left;
+    justify-content: left;
+}
+#texto-ge1{
+    display: grid;
+    width: 45%;
+    justify-content: right;
+    margin-left: 39rem;
+    align-items: right;
+    margin-top: -22rem;
+    padding-right: 25px;
+}
+#texto-ge1 h1{
+    margin-bottom: -3rem;
+}
+
+.ge2{
+    display: grid;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.ge2 img{
+    display: grid;
+    width: 45%;
+    height: auto;
+    align-items: right;
+    padding-left: 40rem;
+    justify-content: right;
+    margin-top: 4rem;
+}
+
+#texto-ge2{
+    display: grid;
+    width: 45%;
+    justify-content: left;
+    margin-right: 20rem;
+    margin-top: -26rem;
+    align-items: left;
+}
+
+#texto-ge2 h1{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: -5rem;
+}
+
+.ge3{
+    display: grid;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-right: 25px;
+    padding: 15px;
+    background: #FA9884;
+    border-radius: 15px;
+}
+
+.ge3 img{
+    padding-right: 20px;
+    width: 42%;
+    height: auto;
+    align-items: left;
+    justify-content: left;
+}
+
+#texto-ge3{
+    display: grid;
+    width: 45%;
+    justify-content: right;
+    margin-left: 39rem;
+    align-items: right;
+    margin-top: -22rem;
+}
+
+#texto-ge3 h1{
+    margin-bottom: -3rem;
+}
+
+.ge4{
+    display: grid;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.ge4 img{
+    display: grid;
+    width: 30%;
+    height: auto;
+    align-items: right;
+    padding-left: 47rem;
+    justify-content: right;
+    margin-top: 4rem;
+}
+#texto-ge4{
+    display: grid;
+    width: 50%;
+    justify-content: left;
+    margin-left: 4rem;
+    margin-top: -25rem;
+    align-items: left;
+}
+
+#texto-ge4 h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: -5rem;
+}
+.ge5{
+    display: grid;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-right: 25px;
+    padding: 15px;
+    background: #FA9884;
+    border-radius: 15px;
+}
+.ge5 img{
+    padding-right: 20px;
+    width: 42%;
+    height: auto;
+    align-items: left;
+    justify-content: left;
+}
+#texto-ge5{
+    display: grid;
+    width: 45%;
+    justify-content: right;
+    margin-left: 39rem;
+    align-items: right;
+    margin-top: -25rem;
+}
+#texto-ge5 h1{
+    margin-bottom: -3rem;
+}
+.quantico{
+    display: grid;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.quantico img{
+    display: grid;
+    width: 30%;
+    height: auto;
+    align-items: right;
+    padding-left: 47rem;
+    justify-content: right;
+    margin-top: 4rem;
+}
+
+#texto-quantico{
+    display: grid;
+    width: 50%;
+    justify-content: left;
+    margin-left: 4rem;
+    margin-top: -30rem;
+    align-items: left;
+}
+#texto-quantico h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: -3rem;
+}
+    
